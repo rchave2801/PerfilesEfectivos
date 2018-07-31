@@ -1,0 +1,95 @@
+JFDML JFormDesigner: "6.0.3.0.150" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :0:0:x, comp label2:::p:160:p, space :p:192:p}, seq t {space ::47:x, par t {seq {comp btnEdit:::p::p, space s:::p, comp btnCancel:::p::p}, seq {par l {comp label1::t:p:73:p, comp label3::t:p:58:p, comp label4::t:p:86:p, comp label6::t:p:58:p, comp label5::t:p:86:p, comp label7::t:p:79:p}, space :p:52:p, par l {comp txtAddress:::p:314:p, comp txtProfession:::p:314:p, comp txtEmail::l:p:314:p, comp txtPhone::l:p:314:p, comp txtName::l:p:314:p, comp txtId:::p:314:p}}}, space :p:29:p}}"
+			"$verticalGroup": "par l {seq t {space ::26:x, comp label2:::p::p, space s:::p, par b {comp label3::b:p::p, comp txtId::b:p:34:p}, space s::30:x, par b {comp label1::b:p::p, comp txtName::b:p:34:p}, space s::28:x, par b {comp label4::b:p::p, comp txtPhone::b:p:34:p}, space s::22:x, par b {comp label6::b::35:x, comp txtEmail::b:p:34:p}, space s:::x, par b {comp label5::b:p::p, comp txtAddress::b:p:34:p}, space s::28:x, par b {comp label7::b:p::p, comp txtProfession::b:p:34:p}, space :p:22:p, par b {comp btnCancel::b:p:36:p, comp btnEdit::b:p:36:p}, space ::26:x}}"
+		} ) {
+			name: "this"
+			"title": "Perfil del trabajador"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Editar perfil"
+				"font": new java.awt.Font( ".SF NS Text", 0, 18 )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Cédula"
+				"horizontalAlignment": 0
+				"font": &Font0 new java.awt.Font( ".SF NS Text", 0, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Nombre"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Teléfono"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Email"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Dirección"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Profesión"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnEdit"
+				"text": "Editar"
+				"font": &Font1 new java.awt.Font( ".SF NS Text", 0, 16 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnAgregarActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnCancel"
+				"text": "Cancelar"
+				"font": #Font1
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnCancelarActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtProfession"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtEmail"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtPhone"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtName"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtId"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtAddress"
+				"horizontalAlignment": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 530, 505 )
+		} )
+	}
+}

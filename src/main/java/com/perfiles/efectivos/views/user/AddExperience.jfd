@@ -1,0 +1,109 @@
+JFDML JFormDesigner: "6.0.3.0.150" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:164:p, comp label1:::p::p, space :0:0:x}, seq l {space :0:21:x, par t {seq t {comp btnAdd:::p::p, space s:::p, comp btnCancel:::p::p}, seq t {par l {comp label4::t:p:102:p, comp label3::t:p:58:p, comp label8::t:p::p, comp label5::t:p:87:p, comp label6::t:p::p, comp label7::t:p::p}, space :p:50:p, par l {comp txtPosition:::p:314:p, comp txtSearch:::p:314:p, comp txtInitialDate::l:p:314:p, comp txtEndDate::l:p:314:p, comp txtCompany::l:p:314:p, comp scrollPane1:::p:314:p}}}}, seq t {space ::201:x, comp lblName:::p:190:p, space ::96:x}}, space ::71:x}}"
+			"$verticalGroup": "par l {seq l {space :p:29:p, comp label1:::p::p, space ::20:x, par b {comp txtSearch::b:p:34:p, comp label8::b:p::p}, space s:::x, comp lblName:::p:24:p, space ::22:x, par b {comp txtPosition::b:p:34:p, comp label3::b:p::p}, space ::20:x, par b {comp txtInitialDate::b:p:34:p, comp label4::b:p::p}, space ::20:x, par b {comp txtEndDate::b:p:34:p, comp label5::b:p::p}, space ::20:x, par b {comp txtCompany::b:p:34:p, comp label6::b:p::p}, space ::20:x, par l {comp scrollPane1:::p:89:p, comp label7:::p::p}, space s:::x, par b {comp btnCancel::b:p:36:p, comp btnAdd::b:p:36:p}, space :0:18:x}}"
+		} ) {
+			name: "this"
+			"title": "Experiencia laboral"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Nueva Experiencia Laboral"
+				"font": new java.awt.Font( ".SF NS Text", 0, 18 )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Cargo"
+				"horizontalAlignment": 0
+				"font": &Font0 new java.awt.Font( ".SF NS Text", 0, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtPosition"
+				"horizontalAlignment": 0
+				"font": &Font1 new java.awt.Font( ".SF NS Text", 0, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Fecha inicio"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Fecha fin"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Empresa"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Funciones"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtInitialDate"
+				"horizontalAlignment": 0
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtEndDate"
+				"horizontalAlignment": 0
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtCompany"
+				"horizontalAlignment": 0
+				"font": #Font1
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "taFunctions"
+					"font": new java.awt.Font( "Monospaced", 0, 16 )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "Buscar perfil"
+				"horizontalAlignment": 0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtSearch"
+				"horizontalAlignment": 0
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblName"
+				"font": new java.awt.Font( ".SF NS Text", 0, 16 )
+				"horizontalAlignment": 0
+				"text": "Nombre"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnCancel"
+				"text": "Cancelar"
+				"font": &Font2 new java.awt.Font( ".SF NS Text", 0, 16 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnAgregarActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnAdd"
+				"text": "Agregar"
+				"font": #Font2
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnAgregarActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 560, 570 )
+		} )
+	}
+}

@@ -1,0 +1,38 @@
+JFDML JFormDesigner: "6.0.3.0.150" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space ::23:x, par t {comp label2:::::p, seq {comp lbid:::p:54:p, space :::x, comp txtTextSearch:::p:191:p}}, space :::x, comp btnSearch:::p::p, space :::x}}"
+			"$verticalGroup": "par l {seq l {space :p:14:p, comp label2:::::p, space ::27:x, par b {comp lbid::b:p:20:p, comp txtTextSearch::b:p::p, comp btnSearch::b:p::p}, space ::53:x}}"
+		} ) {
+			name: "this"
+			"title": "Perfiles Efectivos"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lbid"
+				"text": "Cédula:"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtTextSearch"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnSearch"
+				"text": "Buscar"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSearchOnClick", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSearchOnClick", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Buscar hoja de vida"
+				"font": new java.awt.Font( ".SF NS Text", 0, 16 )
+				"horizontalAlignment": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 15, 0 )
+			"size": new java.awt.Dimension( 385, 165 )
+		} )
+	}
+}
