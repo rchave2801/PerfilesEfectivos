@@ -65,27 +65,27 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtProfession"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtEmail"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtPhone"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtName"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtId"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtAddress"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 0, 0 )

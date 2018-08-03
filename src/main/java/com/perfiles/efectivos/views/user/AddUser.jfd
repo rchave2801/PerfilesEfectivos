@@ -18,7 +18,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtId"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label2"
@@ -34,7 +34,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtName"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label4"
@@ -44,7 +44,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtPhone"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label5"
@@ -54,7 +54,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtEmail"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label6"
@@ -64,7 +64,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtAddress"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label7"
@@ -74,7 +74,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtProfession"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 			} )
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "btnAdd"

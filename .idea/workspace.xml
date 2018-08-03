@@ -2,43 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8645216e-4829-4d30-be39-dba2fbb49118" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/ProfilesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/domain/Experience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/ViewObservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/ViewObservation.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/AddExperience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/AddUser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/EditUser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/SearchUser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/ProfilesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/ProfilesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.jfd" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -94,59 +76,58 @@
     <session id="1589729457">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
           <entry key="form" value="3" />
+          <entry key="gitignore" value="1" />
           <entry key="gradle" value="2" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="15" />
-          <entry key="jfd" value="5" />
+          <entry key="java" value="20" />
+          <entry key="jfd" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="3" />
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="15" />
-          <entry key="JFormDesigner_form" value="5" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="20" />
+          <entry key="JFormDesigner_form" value="10" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
+          <entry key="gitignore" value="6" />
           <entry key="gradle" value="3" />
-          <entry key="java" value="12" />
+          <entry key="java" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="12" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="135" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner" />
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state propertiesWidth="435" structureHeight="131" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -155,58 +136,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner">
-            <state propertiesWidth="210" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/ProfilesApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.jfd">
           <provider selected="true" editor-type-id="JFormDesigner" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1533008794225" expanded="false" signature="380:1207" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-              </folding>
-            </state>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/ViewObservation.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state structureHeight="150" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state propertiesWidth="210" structureHeight="157" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="75">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <marker date="1533010233722" expanded="false" signature="600:10993" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1533010233722" expanded="false" signature="11005:11757" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1533263662493" expanded="false" signature="590:9390" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1533263662493" expanded="false" signature="9402:10077" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/ViewObservation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
-                <marker date="1533008706769" expanded="false" signature="588:9953" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1533008706769" expanded="false" signature="9965:10639" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1533263954878" expanded="false" signature="382:1912" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
@@ -215,12 +182,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+            <state relative-caret-position="58">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="method#initComponents#0;class#MainView#0" />
-                <marker date="1533008641048" expanded="false" signature="471:3618" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1533008641048" expanded="true" signature="3630:3976" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1533265383615" expanded="false" signature="480:2369" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1533265383615" expanded="true" signature="2381:2638" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
@@ -416,7 +383,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6130824389000" />
+        <entry key="$PROJECT_DIR$" value="6132042497000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="360824764" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
@@ -613,11 +580,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/MainView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/MainView.jfd" />
         <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/Edit.jfd" />
-        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.jfd" />
-        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.jfd" />
-        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.jfd" />
         <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/ProfilesApplication.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/ViewObservation.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.jfd" />
       </list>
     </option>
   </component>
@@ -635,6 +606,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -686,22 +658,60 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="efectivos" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="perfilesefectivos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="efectivos" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="observations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="perfilesefectivos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="efectivos" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="perfilesefectivos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="perfilesefectivos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533010378881" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533265709568" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main" />
     </key>
   </component>
@@ -718,6 +728,20 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="ProfilesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.perfiles.efectivos.ProfilesApplication" />
+      <module name="perfilesefectivos_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfiles.efectivos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -738,6 +762,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProfilesApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -754,18 +783,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32971507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -836,35 +865,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/Main.form" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/MainView.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1533008641068" expanded="false" signature="590:9402" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1533008641068" expanded="false" signature="9414:10089" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
-          <folding>
-            <element signature="method#initComponents#0;class#MainView#0" />
-            <marker date="1533008641048" expanded="false" signature="471:3618" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1533008641048" expanded="true" signature="3630:3976" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <marker date="1533008706769" expanded="false" signature="588:9953" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1533008706769" expanded="false" signature="9965:10639" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1533010623409" expanded="false" signature="380:1207" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -874,57 +880,171 @@
         <state relative-caret-position="153">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <marker date="1533010233722" expanded="false" signature="600:10993" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1533010233722" expanded="false" signature="11005:11757" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1533263627946" expanded="false" signature="600:10983" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1533263627946" expanded="false" signature="10995:11747" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="289">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <marker date="1533008794225" expanded="false" signature="380:1207" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1533263691644" expanded="false" signature="588:9941" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1533263691644" expanded="false" signature="9953:10627" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/Main.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/ProfilesApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddUser.jfd">
       <provider selected="true" editor-type-id="JFormDesigner" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.jfd">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/ViewObservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1533263954878" expanded="false" signature="382:1912" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/ViewObservation.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state structureHeight="150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/observations/AddObservation.jfd">
       <provider selected="true" editor-type-id="JFormDesigner" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/AddExperience.jfd">
       <provider selected="true" editor-type-id="JFormDesigner">
-        <state propertiesWidth="210" />
+        <state propertiesWidth="210" structureHeight="157" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/ProfilesApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="75">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <marker date="1533263662493" expanded="false" signature="590:9390" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1533263662493" expanded="false" signature="9402:10077" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/user/EditUser.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="method#initComponents#0;class#MainView#0" />
+            <marker date="1533265383615" expanded="false" signature="480:2369" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1533265383615" expanded="true" signature="2381:2638" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/perfiles/efectivos/views/main/MainView.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state propertiesWidth="435" structureHeight="131" />
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>perfilesefectivos_main|perfilesefectivos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.google.protobuf:protobuf-java:2.6.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

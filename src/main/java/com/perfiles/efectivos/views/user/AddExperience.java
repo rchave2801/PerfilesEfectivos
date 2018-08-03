@@ -61,7 +61,7 @@ public class AddExperience extends JFrame {
         label3.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtPosition ----
-        txtPosition.setHorizontalAlignment(SwingConstants.CENTER);
+        txtPosition.setHorizontalAlignment(SwingConstants.LEFT);
         txtPosition.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- label4 ----
@@ -85,15 +85,15 @@ public class AddExperience extends JFrame {
         label7.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtInitialDate ----
-        txtInitialDate.setHorizontalAlignment(SwingConstants.CENTER);
+        txtInitialDate.setHorizontalAlignment(SwingConstants.LEFT);
         txtInitialDate.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtEndDate ----
-        txtEndDate.setHorizontalAlignment(SwingConstants.CENTER);
+        txtEndDate.setHorizontalAlignment(SwingConstants.LEFT);
         txtEndDate.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtCompany ----
-        txtCompany.setHorizontalAlignment(SwingConstants.CENTER);
+        txtCompany.setHorizontalAlignment(SwingConstants.LEFT);
         txtCompany.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //======== scrollPane1 ========
@@ -110,7 +110,7 @@ public class AddExperience extends JFrame {
         label8.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtSearch ----
-        txtSearch.setHorizontalAlignment(SwingConstants.CENTER);
+        txtSearch.setHorizontalAlignment(SwingConstants.LEFT);
         txtSearch.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- lblName ----

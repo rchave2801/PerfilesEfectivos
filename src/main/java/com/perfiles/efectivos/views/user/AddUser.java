@@ -55,7 +55,7 @@ public class AddUser extends JFrame {
         label1.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtId ----
-        txtId.setHorizontalAlignment(SwingConstants.CENTER);
+        txtId.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- label2 ----
         label2.setText("Nuevo perfil");
@@ -68,7 +68,7 @@ public class AddUser extends JFrame {
         label3.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtName ----
-        txtName.setHorizontalAlignment(SwingConstants.CENTER);
+        txtName.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- label4 ----
         label4.setText("Tel\u00e9fono");
@@ -76,7 +76,7 @@ public class AddUser extends JFrame {
         label4.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtPhone ----
-        txtPhone.setHorizontalAlignment(SwingConstants.CENTER);
+        txtPhone.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- label5 ----
         label5.setText("Direcci\u00f3n");
@@ -84,7 +84,7 @@ public class AddUser extends JFrame {
         label5.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtEmail ----
-        txtEmail.setHorizontalAlignment(SwingConstants.CENTER);
+        txtEmail.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- label6 ----
         label6.setText("Email");
@@ -92,7 +92,7 @@ public class AddUser extends JFrame {
         label6.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtAddress ----
-        txtAddress.setHorizontalAlignment(SwingConstants.CENTER);
+        txtAddress.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- label7 ----
         label7.setText("Profesi\u00f3n");
@@ -100,7 +100,7 @@ public class AddUser extends JFrame {
         label7.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- txtProfession ----
-        txtProfession.setHorizontalAlignment(SwingConstants.CENTER);
+        txtProfession.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- btnAdd ----
         btnAdd.setText("Agregar");

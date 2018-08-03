@@ -23,7 +23,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtPosition"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 				"font": &Font1 new java.awt.Font( ".SF NS Text", 0, 16 )
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
@@ -52,17 +52,17 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtInitialDate"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 				"font": #Font1
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtEndDate"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 				"font": #Font1
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtCompany"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 				"font": #Font1
 			} )
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
@@ -80,7 +80,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtSearch"
-				"horizontalAlignment": 0
+				"horizontalAlignment": 2
 				"font": #Font1
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {

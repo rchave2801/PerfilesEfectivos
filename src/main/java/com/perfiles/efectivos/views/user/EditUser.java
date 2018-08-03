@@ -94,22 +94,22 @@ public class EditUser extends JFrame {
         btnCancel.addActionListener(e -> btnCancelarActionPerformed(e));
 
         //---- txtProfession ----
-        txtProfession.setHorizontalAlignment(SwingConstants.CENTER);
+        txtProfession.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- txtEmail ----
-        txtEmail.setHorizontalAlignment(SwingConstants.CENTER);
+        txtEmail.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- txtPhone ----
-        txtPhone.setHorizontalAlignment(SwingConstants.CENTER);
+        txtPhone.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- txtName ----
-        txtName.setHorizontalAlignment(SwingConstants.CENTER);
+        txtName.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- txtId ----
-        txtId.setHorizontalAlignment(SwingConstants.CENTER);
+        txtId.setHorizontalAlignment(SwingConstants.LEFT);
 
         //---- txtAddress ----
-        txtAddress.setHorizontalAlignment(SwingConstants.CENTER);
+        txtAddress.setHorizontalAlignment(SwingConstants.LEFT);
 
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
         contentPane.setLayout(contentPaneLayout);
