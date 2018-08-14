@@ -47,7 +47,7 @@ public class AddExperience extends JFrame {
         btnAdd = new JButton();
 
         //======== this ========
-        setTitle("Experiencia laboral");
+        setTitle("Perfiles Efectivos");
         Container contentPane = getContentPane();
 
         //---- label1 ----
@@ -114,9 +114,8 @@ public class AddExperience extends JFrame {
         txtSearch.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
 
         //---- lblName ----
-        lblName.setFont(new Font(".SF NS Text", Font.PLAIN, 16));
+        lblName.setFont(new Font(".SF NS Text", Font.ITALIC, 14));
         lblName.setHorizontalAlignment(SwingConstants.CENTER);
-        lblName.setText("Nombre");
 
         //---- btnCancel ----
         btnCancel.setText("Cancelar");
@@ -135,10 +134,6 @@ public class AddExperience extends JFrame {
                 .addGroup(contentPaneLayout.createSequentialGroup()
                     .addGroup(contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
-                            .addGap(164, 164, 164)
-                            .addComponent(label1)
-                            .addGap(0, 0, Short.MAX_VALUE))
-                        .addGroup(contentPaneLayout.createSequentialGroup()
                             .addGap(0, 21, Short.MAX_VALUE)
                             .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.TRAILING)
                                 .addGroup(contentPaneLayout.createSequentialGroup()
@@ -148,19 +143,20 @@ public class AddExperience extends JFrame {
                                 .addGroup(contentPaneLayout.createSequentialGroup()
                                     .addGroup(contentPaneLayout.createParallelGroup()
                                         .addComponent(label4, GroupLayout.Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 102, GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(label3, GroupLayout.Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 58, GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(label8, GroupLayout.Alignment.TRAILING)
                                         .addComponent(label5, GroupLayout.Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 87, GroupLayout.PREFERRED_SIZE)
                                         .addComponent(label6, GroupLayout.Alignment.TRAILING)
-                                        .addComponent(label7, GroupLayout.Alignment.TRAILING))
-                                    .addGap(50, 50, 50)
+                                        .addComponent(label7, GroupLayout.Alignment.TRAILING)
+                                        .addComponent(label8, GroupLayout.Alignment.TRAILING)
+                                        .addComponent(label3, GroupLayout.Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 58, GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
                                     .addGroup(contentPaneLayout.createParallelGroup()
                                         .addComponent(txtPosition, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
                                         .addComponent(txtSearch, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
                                         .addComponent(txtInitialDate, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
                                         .addComponent(txtEndDate, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
                                         .addComponent(txtCompany, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(scrollPane1, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)))))
+                                        .addComponent(scrollPane1, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(label1)))))
                         .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
                             .addContainerGap(201, Short.MAX_VALUE)
                             .addComponent(lblName, GroupLayout.PREFERRED_SIZE, 190, GroupLayout.PREFERRED_SIZE)
@@ -170,9 +166,9 @@ public class AddExperience extends JFrame {
         contentPaneLayout.setVerticalGroup(
             contentPaneLayout.createParallelGroup()
                 .addGroup(contentPaneLayout.createSequentialGroup()
-                    .addGap(29, 29, 29)
+                    .addContainerGap(31, Short.MAX_VALUE)
                     .addComponent(label1)
-                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
+                    .addGap(18, 18, Short.MAX_VALUE)
                     .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                         .addComponent(txtSearch, GroupLayout.PREFERRED_SIZE, 34, GroupLayout.PREFERRED_SIZE)
                         .addComponent(label8))

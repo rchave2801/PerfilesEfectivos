@@ -4,8 +4,8 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-			"$horizontalGroup": "par l {seq t {space :::x, comp btnAddUser:::p:144:p, space ::348:x}}"
-			"$verticalGroup": "par l {seq t {space ::21:x, comp btnAddUser:::p:88:p, space ::222:x}}"
+			"$horizontalGroup": "par l {seq {space :::x, par t {comp btnAddUser:::p:208:p, comp btnAddObservation:::p:208:p}, space :::x, par l {comp btnEditUser:::p:171:p, comp btnViewObservation:::p:171:p}, space s:::p, comp btnAddExperience:::p:191:p, space ::8:x}}"
+			"$verticalGroup": "par l {seq t {space ::20:x, par b {comp btnAddUser::b:p:88:p, comp btnEditUser::b:p:88:p, comp btnAddExperience::b:p:88:p}, space u:::p, par b {comp btnAddObservation::b:p:88:p, comp btnViewObservation::b:p:88:p}, space ::23:x}}"
 		} ) {
 			name: "this"
 			"title": "Perfiles Efectivos"
@@ -13,12 +13,41 @@ new FormModel {
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "btnAddUser"
 				"text": "Nuevo perfil"
-				"icon": new com.jformdesigner.model.SwingIcon( 1, "/Users/rchave/Documents/Projects/PerfilesEfectivos/App/src/main/resources/images/AddUser.png" )
+				"icon": &SwingIcon0 new com.jformdesigner.model.SwingIcon( 1, "/Users/rchave/Documents/Projects/PerfilesEfectivos/App/src/main/resources/images/AddUser.png" )
 				"background": sfield java.awt.SystemColor window
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnAddUserActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnEditUser"
+				"text": "Editar perfil"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "/Users/rchave/Documents/Projects/PerfilesEfectivos/App/src/main/resources/images/EditUser.png" )
+				"background": sfield java.awt.SystemColor window
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnEditUserActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnAddExperience"
+				"text": "Añadir experiencia"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "/Users/rchave/Documents/Projects/PerfilesEfectivos/App/src/main/resources/images/AddExperience.png" )
+				"background": sfield java.awt.SystemColor window
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnAddExperienceActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnAddObservation"
+				"text": "Añadir observación"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "/Users/rchave/Documents/Projects/PerfilesEfectivos/App/src/main/resources/images/AddObservation.png" )
+				"background": sfield java.awt.SystemColor window
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnAddObservationActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnViewObservation"
+				"text": "Ver observación"
+				"icon": #SwingIcon0
+				"background": sfield java.awt.SystemColor window
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnViewObservationActionPerformed", true ) )
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 15, 0 )
-			"size": new java.awt.Dimension( 500, 355 )
+			"size": new java.awt.Dimension( 610, 255 )
 		} )
 	}
 }

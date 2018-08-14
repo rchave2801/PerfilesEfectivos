@@ -4,19 +4,58 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-			"$horizontalGroup": "par l {seq l {space ::21:x, comp scrollPane1:::p:569:p, space ::23:x}}"
-			"$verticalGroup": "par l {seq t {space ::187:x, comp scrollPane1:::p:126:p, space ::18:x}}"
+			"$horizontalGroup": "par l {seq {space :::x, par l {comp scrollPane1::l:p:576:p, seq l {space :p:22:p, comp lblId:::p:58:p, space :p:26:p, comp txtId:::p:314:p}, seq t {comp lblObservation:::p:175:p, space :p:197:p}}, space :::x}}"
+			"$verticalGroup": "par l {seq t {space ::30:x, comp lblObservation:::p::p, space ::47:x, par b {comp txtId::b:p:34:p, comp lblId::b:p::p}, space ::32:x, comp scrollPane1:::p:142:p, space ::24:x}}"
 		} ) {
 			name: "this"
+			"title": "Perfiles Efectivos"
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane1"
 				add( new FormComponent( "javax.swing.JTable" ) {
 					name: "table1"
+					"rowSelectionAllowed": false
+					"autoResizeMode": 4
+					"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+						} )
+					}, new java.util.Vector {
+						add( "Fecha" )
+						add( "Observación" )
+					}, new java.util.Vector {
+						add( class java.lang.String )
+						add( class java.lang.String )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+					}, new java.util.Vector {
+						add( new com.jformdesigner.model.SwingTableColumn( null, 105, 0, 0, true ) )
+						add( new com.jformdesigner.model.SwingTableColumn( null, 400, 0, 0, true ) )
+					} )
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( ".SF NS Text", 0, 16 )
 				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblId"
+				"text": "Cédula"
+				"horizontalAlignment": 0
+				"font": new java.awt.Font( ".SF NS Text", 0, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtId"
+				"horizontalAlignment": 2
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObservation"
+				"text": "Ver observaciones"
+				"font": new java.awt.Font( ".SF NS Text", 0, 18 )
+				"horizontalAlignment": 0
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 0, 0 )
-			"size": new java.awt.Dimension( 615, 355 )
+			"size": new java.awt.Dimension( 590, 355 )
 		} )
 	}
 }

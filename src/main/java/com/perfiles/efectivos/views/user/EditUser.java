@@ -45,7 +45,7 @@ public class EditUser extends JFrame {
         txtAddress = new JTextField();
 
         //======== this ========
-        setTitle("Perfil del trabajador");
+        setTitle("Perfiles Efectivos");
         Container contentPane = getContentPane();
 
         //---- label2 ----
@@ -116,15 +116,12 @@ public class EditUser extends JFrame {
         contentPaneLayout.setHorizontalGroup(
             contentPaneLayout.createParallelGroup()
                 .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(label2, GroupLayout.PREFERRED_SIZE, 160, GroupLayout.PREFERRED_SIZE)
-                    .addGap(192, 192, 192))
-                .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
                     .addContainerGap(47, Short.MAX_VALUE)
                     .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.TRAILING)
                         .addGroup(contentPaneLayout.createSequentialGroup()
+                            .addGap(0, 255, Short.MAX_VALUE)
                             .addComponent(btnEdit)
-                            .addGap(18, 18, 18)
+                            .addGap(18, 18, Short.MAX_VALUE)
                             .addComponent(btnCancel))
                         .addGroup(contentPaneLayout.createSequentialGroup()
                             .addGroup(contentPaneLayout.createParallelGroup()
@@ -134,22 +131,23 @@ public class EditUser extends JFrame {
                                 .addComponent(label6, GroupLayout.Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 58, GroupLayout.PREFERRED_SIZE)
                                 .addComponent(label5, GroupLayout.Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE)
                                 .addComponent(label7, GroupLayout.Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 79, GroupLayout.PREFERRED_SIZE))
-                            .addGap(52, 52, 52)
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
                             .addGroup(contentPaneLayout.createParallelGroup()
                                 .addComponent(txtAddress, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
                                 .addComponent(txtProfession, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
                                 .addComponent(txtEmail, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
                                 .addComponent(txtPhone, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
                                 .addComponent(txtName, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtId, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE))))
-                    .addGap(29, 29, 29))
+                                .addComponent(txtId, GroupLayout.PREFERRED_SIZE, 314, GroupLayout.PREFERRED_SIZE)
+                                .addComponent(label2, GroupLayout.PREFERRED_SIZE, 160, GroupLayout.PREFERRED_SIZE))))
+                    .addContainerGap(29, Short.MAX_VALUE))
         );
         contentPaneLayout.setVerticalGroup(
             contentPaneLayout.createParallelGroup()
                 .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
                     .addContainerGap(26, Short.MAX_VALUE)
                     .addComponent(label2)
-                    .addGap(18, 18, 18)
+                    .addGap(18, 18, Short.MAX_VALUE)
                     .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                         .addComponent(label3)
                         .addComponent(txtId, GroupLayout.PREFERRED_SIZE, 34, GroupLayout.PREFERRED_SIZE))
@@ -173,7 +171,7 @@ public class EditUser extends JFrame {
                     .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                         .addComponent(label7)
                         .addComponent(txtProfession, GroupLayout.PREFERRED_SIZE, 34, GroupLayout.PREFERRED_SIZE))
-                    .addGap(22, 22, 22)
+                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
                     .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                         .addComponent(btnCancel, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnEdit, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE))

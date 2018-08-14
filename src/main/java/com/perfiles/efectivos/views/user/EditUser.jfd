@@ -4,11 +4,11 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-			"$horizontalGroup": "par l {seq t {space :0:0:x, comp label2:::p:160:p, space :p:192:p}, seq t {space ::47:x, par t {seq {comp btnEdit:::p::p, space s:::p, comp btnCancel:::p::p}, seq {par l {comp label1::t:p:73:p, comp label3::t:p:58:p, comp label4::t:p:86:p, comp label6::t:p:58:p, comp label5::t:p:86:p, comp label7::t:p:79:p}, space :p:52:p, par l {comp txtAddress:::p:314:p, comp txtProfession:::p:314:p, comp txtEmail::l:p:314:p, comp txtPhone::l:p:314:p, comp txtName::l:p:314:p, comp txtId:::p:314:p}}}, space :p:29:p}}"
-			"$verticalGroup": "par l {seq t {space ::26:x, comp label2:::p::p, space s:::p, par b {comp label3::b:p::p, comp txtId::b:p:34:p}, space s::30:x, par b {comp label1::b:p::p, comp txtName::b:p:34:p}, space s::28:x, par b {comp label4::b:p::p, comp txtPhone::b:p:34:p}, space s::22:x, par b {comp label6::b::35:x, comp txtEmail::b:p:34:p}, space s:::x, par b {comp label5::b:p::p, comp txtAddress::b:p:34:p}, space s::28:x, par b {comp label7::b:p::p, comp txtProfession::b:p:34:p}, space :p:22:p, par b {comp btnCancel::b:p:36:p, comp btnEdit::b:p:36:p}, space ::26:x}}"
+			"$horizontalGroup": "par l {seq t {space ::47:x, par t {seq {space :0:255:x, comp btnEdit:::p::p, space s:::x, comp btnCancel:::p::p}, seq {par l {comp label1::t:p:73:p, comp label3::t:p:58:p, comp label4::t:p:86:p, comp label6::t:p:58:p, comp label5::t:p:86:p, comp label7::t:p:79:p}, space ::52:x, par l {comp txtAddress:::p:314:p, comp txtProfession:::p:314:p, comp txtEmail::l:p:314:p, comp txtPhone::l:p:314:p, comp txtName::l:p:314:p, comp txtId:::p:314:p, comp label2::l:p:160:p}}}, space ::29:x}}"
+			"$verticalGroup": "par l {seq t {space ::26:x, comp label2:::p::p, space s:::x, par b {comp label3::b:p::p, comp txtId::b:p:34:p}, space s::30:x, par b {comp label1::b:p::p, comp txtName::b:p:34:p}, space s::28:x, par b {comp label4::b:p::p, comp txtPhone::b:p:34:p}, space s::22:x, par b {comp label6::b::35:x, comp txtEmail::b:p:34:p}, space s:::x, par b {comp label5::b:p::p, comp txtAddress::b:p:34:p}, space s::28:x, par b {comp label7::b:p::p, comp txtProfession::b:p:34:p}, space ::22:x, par b {comp btnCancel::b:p:36:p, comp btnEdit::b:p:36:p}, space ::26:x}}"
 		} ) {
 			name: "this"
-			"title": "Perfil del trabajador"
+			"title": "Perfiles Efectivos"
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label2"
 				"text": "Editar perfil"

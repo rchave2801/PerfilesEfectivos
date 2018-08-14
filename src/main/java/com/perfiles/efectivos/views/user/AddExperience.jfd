@@ -4,11 +4,11 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-			"$horizontalGroup": "par l {seq {par l {seq l {space :p:164:p, comp label1:::p::p, space :0:0:x}, seq l {space :0:21:x, par t {seq t {comp btnAdd:::p::p, space s:::p, comp btnCancel:::p::p}, seq t {par l {comp label4::t:p:102:p, comp label3::t:p:58:p, comp label8::t:p::p, comp label5::t:p:87:p, comp label6::t:p::p, comp label7::t:p::p}, space :p:50:p, par l {comp txtPosition:::p:314:p, comp txtSearch:::p:314:p, comp txtInitialDate::l:p:314:p, comp txtEndDate::l:p:314:p, comp txtCompany::l:p:314:p, comp scrollPane1:::p:314:p}}}}, seq t {space ::201:x, comp lblName:::p:190:p, space ::96:x}}, space ::71:x}}"
-			"$verticalGroup": "par l {seq l {space :p:29:p, comp label1:::p::p, space ::20:x, par b {comp txtSearch::b:p:34:p, comp label8::b:p::p}, space s:::x, comp lblName:::p:24:p, space ::22:x, par b {comp txtPosition::b:p:34:p, comp label3::b:p::p}, space ::20:x, par b {comp txtInitialDate::b:p:34:p, comp label4::b:p::p}, space ::20:x, par b {comp txtEndDate::b:p:34:p, comp label5::b:p::p}, space ::20:x, par b {comp txtCompany::b:p:34:p, comp label6::b:p::p}, space ::20:x, par l {comp scrollPane1:::p:89:p, comp label7:::p::p}, space s:::x, par b {comp btnCancel::b:p:36:p, comp btnAdd::b:p:36:p}, space :0:18:x}}"
+			"$horizontalGroup": "par l {seq {par l {seq l {space :0:21:x, par t {seq t {comp btnAdd:::p::p, space s:::p, comp btnCancel:::p::p}, seq t {par l {comp label4::t:p:102:p, comp label5::t:p:87:p, comp label6::t:p::p, comp label7::t:p::p, comp label8::t:p::p, comp label3::t:p:58:p}, space ::50:x, par l {comp txtPosition:::p:314:p, comp txtSearch:::p:314:p, comp txtInitialDate::l:p:314:p, comp txtEndDate::l:p:314:p, comp txtCompany::l:p:314:p, comp scrollPane1:::p:314:p, comp label1::l:p::p}}}}, seq t {space ::201:x, comp lblName:::p:190:p, space ::96:x}}, space ::71:x}}"
+			"$verticalGroup": "par l {seq l {space ::31:x, comp label1:::p::p, space s:::x, par b {comp txtSearch::b:p:34:p, comp label8::b:p::p}, space s:::x, comp lblName:::p:24:p, space ::22:x, par b {comp txtPosition::b:p:34:p, comp label3::b:p::p}, space ::20:x, par b {comp txtInitialDate::b:p:34:p, comp label4::b:p::p}, space ::20:x, par b {comp txtEndDate::b:p:34:p, comp label5::b:p::p}, space ::20:x, par b {comp txtCompany::b:p:34:p, comp label6::b:p::p}, space ::20:x, par l {comp scrollPane1:::p:89:p, comp label7:::p::p}, space s:::x, par b {comp btnCancel::b:p:36:p, comp btnAdd::b:p:36:p}, space :0:18:x}}"
 		} ) {
 			name: "this"
-			"title": "Experiencia laboral"
+			"title": "Perfiles Efectivos"
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label1"
 				"text": "Nueva Experiencia Laboral"
@@ -85,9 +85,8 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "lblName"
-				"font": new java.awt.Font( ".SF NS Text", 0, 16 )
+				"font": new java.awt.Font( ".SF NS Text", 2, 14 )
 				"horizontalAlignment": 0
-				"text": "Nombre"
 			} )
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "btnCancel"

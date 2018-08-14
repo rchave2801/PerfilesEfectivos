@@ -9,7 +9,7 @@ new FormModel {
 		} ) {
 			name: "this"
 			"font": new java.awt.Font( "Lucida Grande", 0, 14 )
-			"title": "Perfil del trabajador"
+			"title": "Perfiles Efectivos"
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label1"
 				"text": "Nombre"

@@ -46,7 +46,7 @@ public class AddUser extends JFrame {
 
         //======== this ========
         setFont(new Font("Lucida Grande", Font.PLAIN, 14));
-        setTitle("Perfil del trabajador");
+        setTitle("Perfiles Efectivos");
         Container contentPane = getContentPane();
 
         //---- label1 ----
